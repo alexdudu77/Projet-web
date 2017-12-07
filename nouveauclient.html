@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- ************************ structuration de la page de base html *******************-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >				
+	<!-- ************************ balises d'en-tÃªte  *******************-->
+	<head><!-- partie invisible de la page-->
+		<title><!--inscrire le titre ici (80 caractÃ¨res)--></title>
+		<meta name="description" content=""/><!--inscrire la description de page ici (200 Ã  300 caractÃ¨res) -->
+		<meta name="keywords" content=""/><!--inscrire la liste de mots clÃ©s sÃ©parÃ©s par des virgules espaces ", " )-->
+		<meta name="Classification" content=""/> <!--inscrire ici les 4 mots clÃ©s principaux sÃ©parÃ©s par des espaces-->
+		<meta http-equiv="content-Type" content="text/html; charset=iso-8859-1" />
+		<link rel="stylesheet" media="screen" type="text/css" href="<!--inscrire ici le nom de la feuille de style CSS-->"/>
+		<form method="post" action="traitement.php">
+
+		<form method="post" action="traitement.php">
+
+		<p>
+
+        <img src="logo.jpg">
+		<label for="logo">Zen Bank</label>
+     	</p>
+		<p>
+     
+		<label for="info">Informations Personnelles</label>
+     	</p>
+		
+		 <form action="/ma-page-de-traitement" method="post">
+		 <input type="radio" id="Monsieur"><label for="Monsieur">Monsieur</label>
+		 <input type="radio" id="Madame"><label for="Madame">Madame</label>
+		 
+    <div>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" />
+    </div>
+	<div>
+        <label for="prénom">Prénom :</label>
+        <input type="text" id="Prénom" />
+    </div>
+    <div>
+        <label for="courriel">Courriel :</label>
+        <input type="email" id="courriel" />
+    </div>
+	
+    <p class="fallbackLabel">Veuillez saisir votre date de naissance :</p>
+    <div class="fallbackDatePicker">
+      <span>
+        <label for="day">Jour :</label>
+        <select id="day" name="day">
+		<option selected>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+		  <option>12</option>
+          <option>13</option>
+          <option>14</option>
+          <option>15</option>
+          <option>16</option>
+          <option>17</option>
+          <option>18</option>
+          <option>19</option>
+          <option>20</option>
+          <option>21</option>
+          <option>22</option>
+		  <option>23</option>
+          <option>24</option>
+          <option>25</option>
+          <option>26</option>
+          <option>27</option>
+          <option>28</option>
+          <option>29</option>
+          <option>30</option>
+          <option>31</option>
+        </select>
+      </span>
+      <span>
+        <label for="month">Mois :</label>
+        <select id="month" name="month">
+          <option selected>Janvier</option>
+          <option>Février</option>
+          <option>Mars</option>
+          <option>Avril</option>
+          <option>Mai</option>
+          <option>Juin</option>
+          <option>Juillet</option>
+          <option>Août</option>
+          <option>Septembre</option>
+          <option>Octobre</option>
+          <option>Novembre</option>
+          <option>Décembre</option>
+        </select>
+      </span>
+      <span>
+        <label for="year">Année :</label>
+        <select id="year" name="year">
+        </select>
+      </span>
+    </div>
+</form>
+	<div>
+        <label for="message">Message :</label>
+        <textarea id="message"></textarea>
+    </div>
+    
+    <div class="button">
+        <button type="submit">Envoyer votre message</button>
+    </div>
+	</form>
+
+
+ 	</head>
+	<!-- ************************ balises de corps  *******************-->
+	<body><!-- partie visible de la page-->
+	<a href="accueil.html">Retour Accueil</a>
+	</body>
+<!-- ******************************************************************************-->
+</html>
